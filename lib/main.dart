@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:login_signup_app/ui/loginsignupscreen.dart';
+import 'package:login_signup_app/ui/numbersignupscreen.dart';
+import 'package:login_signup_app/ui/passwordlogin.dart';
 
 void main()
 {
@@ -15,7 +17,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: loginsignupscreen(),
+      home:loginsignupscreen(),
+      routes:{
+        '/signuppage1' :(context) => Numbersignupscreen(),
+        '/signuppage2' :(context) => Passwordloginscreen() ,
+      },
     );
   }
 }
