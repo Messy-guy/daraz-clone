@@ -80,7 +80,7 @@ class Passwordloginscreen extends StatelessWidget {
                           filled: true,
                           fillColor: Colors.white,
                         ),
-                        keyboardType: TextInputType.phone,
+                        
                       ),
                     ),
                     Padding(
