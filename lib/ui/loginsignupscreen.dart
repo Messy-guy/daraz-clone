@@ -123,7 +123,7 @@ class loginsignupscreen extends StatelessWidget {
                                 ),
                                 TextButton(
                                   onPressed: () {
-                                   
+                                   Navigator.pushNamed(context, '/signuppage3' );
                                   },
                                   child: Text1(
                                     content: 'Mobile Number',

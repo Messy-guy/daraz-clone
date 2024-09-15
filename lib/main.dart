@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:login_signup_app/ui/loginsignupscreen.dart';
+import 'package:login_signup_app/ui/numberloginpage.dart';
 import 'package:login_signup_app/ui/numbersignupscreen.dart';
 import 'package:login_signup_app/ui/passwordlogin.dart';
 
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
       routes:{
         '/signuppage1' :(context) => Numbersignupscreen(),
         '/signuppage2' :(context) => Passwordloginscreen() ,
+        '/signuppage3' :(context) => Numberloginpage(),
       },
     );
   }
