@@ -104,7 +104,6 @@ class Passwordloginscreen extends StatelessWidget {
                           filled: true,
                           fillColor: Colors.white,
                         ),
-                        keyboardType: TextInputType.phone,
                       ),
                     ),
                     SizedBox(height: 10),
